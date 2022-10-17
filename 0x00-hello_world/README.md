@@ -1,1 +1,1 @@
-C hello world
+starting C project
