@@ -4,15 +4,17 @@
  * print_alphabet_x10 - prints alpha 10 times
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	int ten;
-	char la;
+	int j;
+	int x;
 
-	for  (ten = 0; ten <= 9; ten++)
+	for  (x = 0; x < 10; x++)
 	{
-		for (la = 'a'; la <= 'z'; la++)
-			_putchar(la);
+		for (x = 'a'; x <= 'z'; x++)
+		{
+			_putchar(j);
+		}
 		_putchar('\n');
 	}
 }
